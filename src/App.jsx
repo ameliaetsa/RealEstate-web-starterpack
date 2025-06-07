@@ -1,7 +1,9 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import "./App.css"; // Assuming you have a CSS file for styling
+import "./App.css"; 
 import Desc from "./components/Desc/Desc";
+import Contact from "./components/Contact/Contact";
+import Fasilitas from "./components/Fasilitas/Fasilitas";
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
         <Hero />
       </div>
       <Desc />
+      <Fasilitas />
+      <Contact />
     </div>
   );
 }
 
 export default App;
+

@@ -1,0 +1,73 @@
+.fasilitas {
+  margin: 4rem 6rem;
+  color: #2a2a2a;
+}
+
+.fasilitas h1 {
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+
+.fasilitas p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.fasilitascard {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.f-card {
+  width: 525px;
+  text-align: start;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 1rem .8rem;
+  background-color: #fff;
+}
+
+.f-image {
+  height: 300px;
+  width: 500px;
+  border-radius: 15px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s ease-in-out;
+  border-radius:15px;
+}
+
+.f-image:hover img {
+  transform: scale(1.3);
+}
+
+.f-card h4 {
+  font-size: 0.9rem 0.2rem 0;
+}
+
+@media screen and (max-width: 850px) {
+  .fasilitas {
+    margin: 4rem 2rem;
+  }
+  .fasilitascard {
+    flex-direction: column;
+  }
+  .f-card{
+    width: 100%;
+    margin-bottom: 1.5rem;
+
+  }
+
+}
