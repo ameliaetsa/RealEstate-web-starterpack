@@ -8,7 +8,7 @@ const Desc = () => {
         {/* left side */}
         <div className="v-left">
           <div className="image-container">
-            <img src="./value.png" alt="" />
+            <img src="./fotodesc.HEIC" alt="" />
           </div>
         </div>
         {/* right side */}

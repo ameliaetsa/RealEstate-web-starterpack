@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <section className="h-wrapper">
       <div className="flexCenter paddigns innerWidth h-container">
-        <img src="./logo.png" alt="logo" width={100} />
+        <img src="./logoalamora.jpeg" alt="logo" width={100} />
 
         <div className="flexCenter h-menu">
           <a href="#home">Home</a>

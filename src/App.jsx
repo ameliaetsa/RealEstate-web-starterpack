@@ -1,9 +1,10 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
-import "./App.css"; 
+import "./App.css";
 import Desc from "./components/Desc/Desc";
 import Contact from "./components/Contact/Contact";
 import Fasilitas from "./components/Fasilitas/Fasilitas";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,10 +16,10 @@ function App() {
       </div>
       <Desc />
       <Fasilitas />
-      <Contact />
+      {/* <Contact /> */}
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
